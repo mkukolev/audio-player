@@ -2,24 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Player</title>
 </head>
 <body>
-<p>
-    <input type="button" id="play" value="Play">
-    <input type="button" id="pause" value="Pause">
-    <input type="button" id="stop" value="Stop">
-</p>
-<p>
-    <input type="button" id="pre" value="Pre">
-    <input type="button" id="next" value="Next">
-</p>
+<div id="buttons-interface">
+    <p>
+        <input type="button" id="play" value="Play">
+        <input type="button" id="pause" value="Pause">
+        <input type="button" id="stop" value="Stop">
+    </p>
+    <p>
+        <input type="button" id="pre" value="Pre">
+        <input type="button" id="next" value="Next">
+    </p>
+</div>
+<div id="files-list">
+    <p>
+        <input type="file" id="files" multiple />
+        <output id="list"></output>
+    </p>
+</div>
 
-<p>
-    <input type="file" id="files" multiple />
-    <output id="list"></output>
-</p>
-    <script src="./script.js"></script>
-
+<script src="./player.js"></script>
 </body>
 </html>
